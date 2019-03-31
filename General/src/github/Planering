@@ -1,0 +1,10 @@
+Skapa en scanner och importera den
+Läs in en sträng för “ordet”
+Skapa variabel för spelarens liv
+Ersätt “ordets” bokstäver med _ och skriv ut det
+Skapa en while-loop 
+Skapa if-satser i while-loopen, som med fel svar minskar liv och sparar bokstaven i en array
+Skriv ut vid varje ny gissning alla bokstäver i arrayen
+Vid rätt gissning, avslöja bokstaven i ordet
+Om liv blir slut, avsluta spelet och skriv ut förlust
+Om alla bokstäver avslöjas, avsluta och skriv ut seger
