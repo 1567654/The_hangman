@@ -8,3 +8,22 @@ Skriv ut vid varje ny gissning alla bokstäver i arrayen
 Vid rätt gissning, avslöja bokstaven i ordet
 Om liv blir slut, avsluta spelet och skriv ut förlust
 Om alla bokstäver avslöjas, avsluta och skriv ut seger
+
+Programmet ska börja med att läsa in ett ord i en sträng och spara den i en variabel. Det ordet ska bli det man ska gissa på. 
+När man börjar spelet får spelaren ett antal liv, och ordet man gissar på ska bli ett okänd ord, men man får veta ordlängden.
+Med hjälp av if-satser ska en fel gissning minska spelarens liv och spara den felaktiga bokstaven i en array.
+Varje fel gissning skriver ut alla felaktiga bokstäver man gissat på från arrayen.
+En rätt gissning ska visa bokstaven man gissat på rätta platser. Detta ska repeteras flera gånger med en while-loop. 
+När spelaren får slut på liv, avslutas spelet och det skrivs ut förlust. Om spelaren vinner ska det skrivas ut ett seger meddelande.
+
+Datatyper som ska användas är: char, char[], int, String, Scanner
+char ska användas för att visa det okända ordets ordlängd.
+char[] ska användas för att fylla det okända ordet och för att fylla felaktiga gissningar
+int för att definera liv
+String för att spara in i ordet
+Scanner för att läsa in ordet och gissningarna
+
+Loopar och villkor som ska användas är if-satser, for- och while-loopar.
+if-satser ska användas för att få rätt och fel svar, samt förlust och seger.
+for-loopar ska användas för att kolla igenom ordet, bokstav för bokstav
+while-loopen ska användas så att man kan gissa flera gånger, till man har vunnit eller förlorat
